@@ -5,3 +5,25 @@ url('https://googleapis.com/css2?family=Chakra+Petch:wght@400;700&display=swap')
     --cor-principal: #6E859F;
    --cor-secundaria: #284260;
 --cor-destaque:# C92BFC;
+body{
+    font-family: 'Chakra Petch , sans-serif';
+    color: var(--cor-principal);
+    background-color: #f8f9fa;
+}
+ h1,h2,h5{
+    color:var(--cor-secundaria);
+    font-weight:700;
+ }
+.lead,.btn-link{
+    color:var(--cor-destaque);
+    font-weight:700;
+    text-decoration:nome;
+}
+
+ a, .btn-link:hover{
+    color:var(--cor-principal);
+ }
+
+ a:hover{
+    color:var(--cor-destaque);
+ }
